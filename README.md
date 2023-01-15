@@ -24,3 +24,5 @@ Regarding the analyses and figures associated with the solar irradiance data fro
 
 # How to run the Jupyter Notebooks
 In all notebooks, if the appropriate input data is available, one can run all the cells from top to bottom in the notebook to do the relevant analysis or create the figure. In some notebooks, one can use the processed data to directly produce the figures without needing to process the input data (as the data used in our study is not publicly available in most cases).
+
+If the user wants to use the code on their own data, first, they should run the Python codes with their data as the input in order to create the datasets associated with the entropy measures and prediction errors of their dataset. Then, they can run the Jupyter Notebooks to do the analyses.
