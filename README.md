@@ -1,10 +1,12 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7538884.svg)](https://doi.org/10.5281/zenodo.7538884)
 # Code and Data for a study on measuring the predictability of renewable generation data
 This repository contains the code and data for the following paper:
 
 Sahand Karimi-Arpanahi, S. Ali Pourmousavi, and Nariman Mahdavi. "Renewable generation predictability and its applications: A missing piece of the puzzle."
+
 Abstract: Currently, various decisions in the power systems domain are made based on renewable generation prediction as a decisive factor. Thus, numerous sophisticated forecasting methods have been developed to improve the prediction accuracy of renewable generation. However, the accuracy of forecasting methods is limited by the inherent predictability of the data used for prediction. Additionally, the prediction techniques cannot measure the inherent predictability of a given time series. Therefore, this important measure has been entirely overlooked in theory and practice. In this paper, we systematically assess the suitability of various predictability measures for renewable generation time series, revealing the best method and providing instructions to tune it. Then, using real-world examples, we illustrate how predictability could save end users and investors millions of dollars in the electricity sector.
 
-# Folders and contained files
+# Folders and files
 The main folder includes the codes used to produce the figures in the paper.
 Input_data folder includes all the relevant input data that we can share. It also includes a synthetic rooftop PV generation dataset.
 Processed_data folder includes most of the outputs of our codes, which were used to create the figures. 
@@ -25,4 +27,4 @@ Regarding the analyses and figures associated with the solar irradiance data fro
 # How to run the Jupyter Notebooks
 In all notebooks, if the appropriate input data is available, one can run all the cells from top to bottom in the notebook to do the relevant analysis or create the figure. In some notebooks, one can use the processed data to directly produce the figures without needing to process the input data (as the data used in our study is not publicly available in most cases).
 
-If the user wants to use the code on their own data, first, they should run the Python codes with their data as the input in order to create the datasets associated with the entropy measures and prediction errors of their dataset. Then, they can run the Jupyter Notebooks to do the analyses.
+If the user wants to use the code on their own data, first, they should run the Python codes with their own data as the input in order to create the datasets of entropy measures and prediction errors for their own renewable generation data. Then, they can run the Jupyter Notebooks to do the analyses.
